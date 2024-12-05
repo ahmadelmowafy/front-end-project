@@ -1,0 +1,107 @@
+body {
+  font-family: Livvic, sans-serif;
+  height: 100vh;
+
+  /* background-image: url('https://static.vecteezy.com/system/resources/previews/030/657/174/non_2x/a-simple-digital-wallpaper-minimalist-free-photo.jpg'); */
+  background-image: url('https://simplywallpaper.net/pictures/2010/10/02/Hogwarts-Castle-Art.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #08095a;
+  padding: 0 2rem;
+}
+
+h1 {
+  color: #b2932d;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#favs-link {
+  font-size: larger;
+}
+
+input {
+  height: 2.5rem;
+  width: 300px;
+  font-size: 1rem;
+  margin-right: 0.25rem;
+  padding-left: 0.5rem;
+  border-radius: 2px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  height: 2.5rem;
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 5%;
+  background-color: #08095a;
+  color: white;
+}
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.favorite-chars-text {
+  margin-left: 1rem;
+  display: inline-flex;
+  background-color: beige;
+}
+
+.character-card {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  width: 600px;
+  margin: 1rem;
+  background-color: rgb(178, 147, 45, 0.75);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  height: 250px;
+  border-radius: 3%;
+}
+
+.character-info {
+  margin-left: 1rem;
+}
+
+.more-actions {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.del-button-link {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  margin: 0;
+}
